@@ -36,31 +36,6 @@ uuid: A library for generating universally unique identifiers (UUIDs) for tasks.
 
 cors: A Node.js package that provides a Connect/Express middleware to enable Cross-Origin Resource Sharing (CORS) for your API.
 
-📂 Project Structure
-The project is structured into two main directories: backend for the Node.js API and frontend for the React application.
-
-task-board-app/
-├── backend/
-│   ├── node_modules/         # Backend dependencies
-│   ├── package.json          # Backend project metadata and dependencies
-│   ├── package-lock.json     # Records exact dependency versions
-│   └── server.js             # Node.js Express API server
-├── frontend/
-│   ├── public/               # Public assets for the frontend
-│   │   └── vite.svg          # Default Vite logo
-│   ├── src/                  # React source code
-│   │   ├── App.jsx           # Main React application component
-│   │   ├── index.css         # Global styles and Tailwind CSS directives
-│   │   └── main.jsx          # React entry point
-│   ├── .gitignore            # Git ignore rules for frontend
-│   ├── index.html            # Frontend HTML template
-│   ├── package.json          # Frontend project metadata and dependencies
-│   ├── package-lock.json     # Records exact dependency versions
-│   ├── postcss.config.js     # PostCSS configuration for Tailwind CSS
-│   ├── tailwind.config.js    # Tailwind CSS configuration
-│   └── vite.config.js        # Vite build tool configuration
-└── README.md                 # Project documentation (this file)
-
 🚀 Setup Instructions
 Follow these steps to set up and run the project on your local machine.
 
