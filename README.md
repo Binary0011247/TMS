@@ -133,29 +133,9 @@ Start Backend: In your first terminal (in the backend directory), run node serve
 
 Start Frontend: In your second terminal (in the frontend directory), run npm run dev.
 
-🌐 Deployment Notes
+🌐 Deployment Notes:-
 
 Frontend Deployment (React App)
-The React frontend is a static single-page application and can be easily deployed to platforms like Vercel or Netlify.
+The React frontend is a static single-page application and can be easily deployed to platforms like Vercel 
 
-Steps for Vercel/Netlify:
-
-Connect GitHub: Log in to your chosen platform and connect your GitHub account.
-
-Import Project: Select your task-board-app repository.
-
-Configure Build Settings:
-
-Root Directory: Set this to frontend.
-
-Build Command: npm run build
-
-Publish Directory (Output Directory): dist
-
-Environment Variables: After your backend is deployed (see below), you must set an environment variable for your frontend to communicate with it.
-
-Variable Name: VITE_API_BASE_URL (Vite requires the VITE_ prefix for client-side environment variables).
-
-Variable Value: The live public URL of your deployed Node.js backend API (e.g., https://your-deployed-backend.render.com/api).
-
-Deploy: Initiate the deployment. The platform will provide a live URL for your frontend once successful.
+Vercel deployment link:-https://tms-nine-sable.vercel.app/
