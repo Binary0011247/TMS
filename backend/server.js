@@ -7,7 +7,7 @@ const { v4: uuidv4 } = require('uuid'); // For generating unique IDs for tasks
 
 // Initialize the Express application
 const app = express();
-const port = 3001; // Port for the backend server
+const port = process.env.PORT || 3001; // Port for the backend server
 
 // Middleware setup
 app.use(cors()); // Enable CORS for all routes
