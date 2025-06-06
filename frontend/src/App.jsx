@@ -5,7 +5,7 @@ import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd'; // 
 import { PlusCircle, XCircle, Edit2, Trash2 } from 'lucide-react'; // Icons for actions
 
 // Base URL for the backend API
-const API_BASE_URL = 'http://localhost:3001/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3001/api';
 
 // TaskCard component - Represents a single draggable task
 const TaskCard = ({ task, index, onEdit, onDelete }) => {
