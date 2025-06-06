@@ -138,4 +138,4 @@ Start Frontend: In your second terminal (in the frontend directory), run npm run
 Frontend Deployment (React App)
 The React frontend is a static single-page application and can be easily deployed to platforms like Vercel 
 
-Vercel deployment link:-https://tms-nine-sable.vercel.app/
+Vercel deployment link:-https://tms-azure.vercel.app/
